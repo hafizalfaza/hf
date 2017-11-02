@@ -1,0 +1,168 @@
+.center-detail-about-section .text-container {
+  padding: 100px 300px 0px 300px; }
+  @media only screen and (max-width: 320px) {
+    .center-detail-about-section .text-container {
+      padding: 0 20px; } }
+  .center-detail-about-section .text-container span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px; }
+  .center-detail-about-section .text-container p {
+    line-height: 2;
+    font-size: 18px; }
+    @media only screen and (max-width: 320px) {
+      .center-detail-about-section .text-container p {
+        line-height: 1.5;
+        font-size: 15px; } }
+
+.center-detail-about-section .video-container {
+  padding: 0 200px; }
+  @media only screen and (max-width: 320px) {
+    .center-detail-about-section .video-container {
+      padding: 0; } }
+  .center-detail-about-section .video-container .video {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform: translateY(40%);
+    -moz-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    -o-transform: translateY(40%);
+    transform: translateY(40%); }
+    @media only screen and (max-width: 320px) {
+      .center-detail-about-section .video-container .video {
+        height: 200px; } }
+
+.center-detail-info-section {
+  background: #F7F0E8;
+  padding-top: 250px;
+  padding-bottom: 100px; }
+  @media only screen and (max-width: 320px) {
+    .center-detail-info-section {
+      padding-top: 50px; } }
+  .center-detail-info-section .info-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; }
+    @media only screen and (max-width: 320px) {
+      .center-detail-info-section .info-container {
+        padding: 20px 0;
+        -webkit-box-flex-direction: column;
+        -moz-box-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    .center-detail-info-section .info-container .info {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50%;
+      height: 400px;
+      padding-left: 12%;
+      padding-top: 80px;
+      background-image: url("../img/products/img_brushproduct.png"); }
+      @media only screen and (max-width: 320px) {
+        .center-detail-info-section .info-container .info {
+          width: 100%;
+          padding-left: 20%; }
+          .center-detail-info-section .info-container .info:not(:first-child) {
+            margin-top: -50px; } }
+      .center-detail-info-section .info-container .info h2 {
+        font-size: 30px; }
+        @media only screen and (max-width: 320px) {
+          .center-detail-info-section .info-container .info h2 {
+            max-width: 200px; } }
+      .center-detail-info-section .info-container .info p {
+        max-width: 300px;
+        line-height: 1.5; }
+        @media only screen and (max-width: 320px) {
+          .center-detail-info-section .info-container .info p {
+            max-width: 200px; } }
+  .center-detail-info-section .map-container {
+    margin-top: 150px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    @media only screen and (max-width: 320px) {
+      .center-detail-info-section .map-container {
+        margin-top: 0; } }
+
+.related-center-section {
+  background: #F7F0E8;
+  padding: 50px 0 150px 0; }
+  @media only screen and (max-width: 320px) {
+    .related-center-section {
+      padding: 0; } }
+  .related-center-section .main-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px; }
+    @media only screen and (max-width: 320px) {
+      .related-center-section .main-title {
+        font-size: 25px; } }
+  .related-center-section .cards-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; }
+    @media only screen and (max-width: 320px) {
+      .related-center-section .cards-container {
+        padding: 0;
+        -webkit-box-flex-direction: column;
+        -moz-box-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    .related-center-section .cards-container .card {
+      width: 33.333333333%;
+      padding: 0 10px; }
+      @media only screen and (max-width: 320px) {
+        .related-center-section .cards-container .card {
+          width: 100%;
+          margin-bottom: 20px; } }
+      .related-center-section .cards-container .card .inner {
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px black solid;
+        padding-bottom: 20px; }
+        .related-center-section .cards-container .card .inner .img-container {
+          height: 250px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          -webkit-box-shadow: 0px 15px 34px -6px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0px 15px 34px -6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 15px 34px -6px rgba(0, 0, 0, 0.2); }
+          @media only screen and (max-width: 320px) {
+            .related-center-section .cards-container .card .inner .img-container {
+              height: 180px; } }
+        @media only screen and (max-width: 320px) {
+          .related-center-section .cards-container .card .inner .text-container h2 {
+            font-size: 18px; } }
+        @media only screen and (max-width: 320px) {
+          .related-center-section .cards-container .card .inner .text-container p {
+            font-size: 15px; } }

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        {% block title %} {% endblock %}
+        <link rel="stylesheet" href="../dist/assets/css/app.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    </head>
+    <body>
+        <div id="main">
+            {% include "components/header/header.njk" %}
+            {% block content %} {% endblock %}
+        </div>
+        {% include "components/footer/footer.njk" %} 
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="../dist/assets/js/scripts.js"></script>
+        
+    </body>
+</html>

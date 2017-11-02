@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block title %} {% endblock %}
+        <link rel="stylesheet" href="../assets/css/app.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    </head>
+    <body>
+        <div id="main">
+            <div class="parent-container menu-closed">
+                {% block content %} {% endblock %}
+            </div>
+        </div>
+
+        <script src="../assets/js/scripts.js"></script>
+        
+    </body>
+</html>

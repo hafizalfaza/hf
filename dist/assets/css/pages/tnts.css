@@ -1,0 +1,119 @@
+.header-tnts {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden; }
+  .header-tnts .bg-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.desc-section {
+  width: 100%;
+  background: #F7F0E8;
+  padding: 200px 0; }
+  @media only screen and (max-width: 320px) {
+    .desc-section {
+      padding: 100px 0; } }
+  .desc-section .carousel-container {
+    position: absolute;
+    padding: 0 300px;
+    top: 300px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2; }
+    @media only screen and (max-width: 320px) {
+      .desc-section .carousel-container {
+        padding: 0;
+        top: 300px;
+        font-size: 18px; } }
+    @media only screen and (max-width: 320px) {
+      .desc-section .carousel-container .tnts-carousel {
+        width: 90%;
+        margin: auto; } }
+    .desc-section .carousel-container .tnts-carousel .item {
+      width: 100%;
+      background: white;
+      height: 250px;
+      text-align: center;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-flex-direction: column;
+      -moz-box-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      justify-content: center;
+      -webkit-justify-content: center; }
+  .desc-section .text-container {
+    padding: 0 300px; }
+    .desc-section .text-container .small-title {
+      margin-bottom: 20px;
+      display: block; }
+    @media only screen and (max-width: 320px) {
+      .desc-section .text-container {
+        padding: 0 20px; } }
+    .desc-section .text-container p {
+      line-height: 2; }
+    .desc-section .text-container .p-small {
+      margin-top: 50px; }
+  .desc-section .video-container {
+    padding: 0 200px;
+    margin-top: 80px;
+    margin-bottom: 80px; }
+    @media only screen and (max-width: 320px) {
+      .desc-section .video-container {
+        padding: 0; } }
+    .desc-section .video-container .video {
+      width: 100%;
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+      @media only screen and (max-width: 320px) {
+        .desc-section .video-container .video {
+          height: 200px; } }
+  .desc-section .suggestion-container {
+    padding: 0 120px; }
+    @media only screen and (max-width: 320px) {
+      .desc-section .suggestion-container {
+        padding: 0; } }
+    .desc-section .suggestion-container .suggestion-title {
+      text-align: center;
+      border-top: 1px black solid;
+      padding: 80px 0 20px 0;
+      font-size: 35px; }
+    .desc-section .suggestion-container .tnts-suggestion-carousel .item {
+      height: 500px;
+      width: 33.333333333%; }
+      @media only screen and (max-width: 320px) {
+        .desc-section .suggestion-container .tnts-suggestion-carousel .item {
+          width: 100%; } }
+      .desc-section .suggestion-container .tnts-suggestion-carousel .item .inner {
+        position: relative;
+        width: 90%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: auto; }
+        .desc-section .suggestion-container .tnts-suggestion-carousel .item .inner .inner-text-container {
+          position: absolute;
+          bottom: 0;
+          background: white;
+          width: 100%;
+          height: 40%;
+          padding: 0 40px; }
+          .desc-section .suggestion-container .tnts-suggestion-carousel .item .inner .inner-text-container h2 {
+            text-align: left; }
+          .desc-section .suggestion-container .tnts-suggestion-carousel .item .inner .inner-text-container p {
+            line-height: 1.5; }

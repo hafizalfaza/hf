@@ -1,0 +1,141 @@
+.header-menu {
+  position: fixed;
+  right: 0;
+  padding: 0 50px;
+  top: 0;
+  z-index: 100;
+  height: 100px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex-direction: row;
+  -moz-box-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  -webkit-align-items: center; }
+  .header-menu.active {
+    position: fixed;
+    right: 0;
+    top: 0; }
+    .header-menu.active .lang-menu {
+      color: white; }
+    .header-menu.active .cart #Header-Black {
+      fill: white;
+      stroke: white; }
+    .header-menu.active button {
+      border: 1px white solid;
+      color: white; }
+  .header-menu .lang-menu {
+    line-height: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: black; }
+    .header-menu .lang-menu svg {
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+      vertical-align: middle;
+      fill: currentColor; }
+  .header-menu .cart #Header-Black {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .header-menu button {
+    align-self: center;
+    border: 1px black solid;
+    background: none;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .header-menu .btn-menu-wrapper {
+    height: 30px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex-direction: column;
+    -moz-box-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center; }
+    .header-menu .btn-menu-wrapper:hover .btn-menu:after {
+      width: 100%; }
+    .header-menu .btn-menu-wrapper .btn-menu {
+      position: relative;
+      height: 3px;
+      width: 30px;
+      background: black;
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+      -o-transition: all 0.25s ease;
+      transition: all 0.25s ease; }
+      .header-menu .btn-menu-wrapper .btn-menu.active {
+        background: none; }
+        .header-menu .btn-menu-wrapper .btn-menu.active:before {
+          top: 0px;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          background: white; }
+        .header-menu .btn-menu-wrapper .btn-menu.active:after {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+          bottom: 0px;
+          width: 100%;
+          background: white; }
+      .header-menu .btn-menu-wrapper .btn-menu:before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        top: -10px;
+        height: 3px;
+        width: 100%;
+        background: black;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+      .header-menu .btn-menu-wrapper .btn-menu:after {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        bottom: -10px;
+        height: 3px;
+        width: 50%;
+        background: black;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }

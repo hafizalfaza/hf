@@ -1,0 +1,266 @@
+  @font-face {
+    font-family:'BronzeScriptPersonalUse';
+    src: url('../fonts/Bronze Script Personal Use.eot');
+	  src: url('../fonts/Bronze Script Personal Use.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Bronze Script Personal Use.woff2') format('woff2'),
+		url('../fonts/Bronze Script Personal Use.woff') format('woff'),
+		url('../fonts/Bronze Script Personal Use.svg#Bronze Script Personal Use') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+  font-family:'HouschkaProBold';
+  src: url('../fonts/Houschka Pro Bold.eot');
+  src: url('../fonts/Houschka Pro Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Houschka Pro Bold.woff2') format('woff2'),
+  url('../fonts/Houschka Pro Bold.woff') format('woff'),
+  url('../fonts/Houschka Pro Bold.svg#Houschka Pro Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal; 
+  unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+  font-family:'OpenSansItalic';
+  src: url('../fonts/Open Sans Italic.eot');
+  src: url('../fonts/Open Sans Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Open Sans Italic.woff2') format('woff2'),
+  url('../fonts/Open Sans Italic.woff') format('woff'),
+  url('../fonts/Open Sans Italic.svg#Open Sans Italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+
+@font-face {
+  font-family:'PlayfairDisplay';
+  src: url('../fonts/Playfair Display.eot');
+  src: url('../fonts/Playfair Display.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Playfair Display.woff2') format('woff2'),
+  url('../fonts/Playfair Display.woff') format('woff'),
+  url('../fonts/Playfair Display.svg#Playfair Display') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+
+@font-face {
+  font-family:'HouschkaProLight';
+  src: url('../fonts/Houschka Pro Light.eot');
+src: url('../fonts/Houschka Pro Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Houschka Pro Light.woff2') format('woff2'),
+  url('../fonts/Houschka Pro Light.woff') format('woff'),
+  url('../fonts/Houschka Pro Light.svg#Houschka Pro Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family:'ProximaNova-Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Bold.woff') format('woff'),
+  url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+  font-family:'ProximaNova-Extrabld';
+  src: url('../fonts/ProximaNova-Extrabld.eot');
+  src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+  url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+  font-family:'ProximaNova-Semibold';
+  src: url('../fonts/ProximaNova-Semibold.eot');
+src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+  url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family:'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot');
+src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Regular.woff') format('woff'),
+  url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+
+
+
+.houschka{
+  font-family: 'HouschkaProBold', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.playfairdisplay{
+  font-family: 'PlayfairDisplay', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 100;
+}
+
+
+.houschkalight{
+  font-family: 'HouschkaProLight', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 600;
+}
+
+
+.opensansitalic{
+  font-family: 'OpenSansItalic', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.proximanova-regular{
+  font-family: 'ProximaNova-Regular', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.proximanova-bold{
+  font-family: 'ProximaNova-Bold', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.proximanova-extrabold{
+  font-family: 'ProximaNova-Extrabld', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.proximanova-semibold{
+  font-family: 'ProximaNova-Semibold', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.bronzescript{
+  font-family:'BronzeScriptPersonalUse', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+h1{
+  font-family:'BronzeScriptPersonalUse', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 200;
+  margin: 0;
+}
+
+h2{
+  font-family: 'PlayfairDisplay', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 100;
+  margin: 0;
+}
+
+p{
+  font-family: 'HouschkaProLight', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+.font-xxx-s{
+  font-size: 12px;
+}
+
+.font-xx-s{
+  font-size: 14px;
+}
+
+.font-x-s{
+  font-size: 15px;
+}
+
+.font-s{
+  font-size: 18px;
+}
+
+.font-md{
+  font-size: 20px;
+}
+
+.font-x-md{
+  font-size: 25px;
+}
+
+.font-xx-md{
+  font-size: 30px;
+}
+
+.font-xxx-md{
+  font-size: 35px;
+}
+
+
+.font-lg{
+  font-size: 45px;
+}
+
+.font-x-lg{
+  font-size: 60px;
+}
+
+.font-xx-lg{
+  font-size: 80px;
+}
+
+.font-xxx-lg{
+  font-size: 100px;
+}
+
+.font-giant{
+  font-size: 120px;
+}
+
+.font-ultra-giant{
+  font-size: 150px;
+}
