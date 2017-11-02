@@ -1,0 +1,15 @@
+.orange-gradient{
+    @include gradient-alpha(left, right, rgba(255, 110, 110, 0.85) , rgba(255, 192, 113, 0.85))
+}
+
+.green-gradient{
+    @include gradient-alpha(left, right, rgba(180, 213, 144, 0.85) , rgba(112, 225, 221, 0.85))
+}
+
+.blue-gradient{
+    @include gradient-alpha(left, right, rgba(118, 222, 223, 0.85), rgba(147, 109, 254, 0.85))
+}
+
+.purple-gradient{
+    @include gradient-alpha(left, right, rgba(147, 109, 218, 0.85), rgba(237, 153, 179, 0.85))
+}

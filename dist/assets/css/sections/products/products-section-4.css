@@ -1,0 +1,63 @@
+.products-section-4 {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0; }
+  .products-section-4 .parallax-img {
+    top: -100px;
+    position: absolute;
+    width: 100%;
+    height: 120%; }
+  .products-section-4 .products-trending-carousel-container .products-trending-carousel {
+    /* white circles */
+    /* fill-in selected dot */ }
+    .products-section-4 .products-trending-carousel-container .products-trending-carousel .flickity-prev-next-button {
+      display: none; }
+    .products-section-4 .products-trending-carousel-container .products-trending-carousel .flickity-page-dots {
+      left: 0;
+      right: 0; }
+    .products-section-4 .products-trending-carousel-container .products-trending-carousel .flickity-page-dots .dot {
+      width: 12px;
+      height: 12px;
+      opacity: 1;
+      background: grey; }
+    .products-section-4 .products-trending-carousel-container .products-trending-carousel .flickity-page-dots .dot.is-selected {
+      background: white; }
+    .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item {
+      width: 100%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-flex-direction: row;
+      -moz-box-flex-direction: row;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      color: white; }
+      .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .img-container {
+        width: 35%;
+        text-align: right; }
+        .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .img-container img {
+          width: 170px; }
+      .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .text-container {
+        width: 65%;
+        padding: 50px 80px; }
+        .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .text-container .small-heading {
+          display: block;
+          margin-bottom: 30px; }
+        .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .text-container h2 {
+          margin-bottom: 40px; }
+        .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .text-container p {
+          margin-bottom: 30px;
+          max-width: 400px; }
+        .products-section-4 .products-trending-carousel-container .products-trending-carousel .carousel-item .text-container .btn-brush {
+          display: inline-block;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 250px;
+          height: 70px;
+          line-height: 65px;
+          text-align: center;
+          margin-left: -10px; }

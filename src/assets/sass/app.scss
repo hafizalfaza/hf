@@ -3,8 +3,8 @@
 @import "lib/_mixins";
 @import "lib/_fonts";
 @import "lib/_normalize";
+@import "lib/_gradients";
 @import "vendor/_icomoon";
-
 
 @import "sections/home/home-section-1.scss";
 @import "sections/home/home-section-2.scss";
@@ -13,5 +13,14 @@
 @import "sections/home/home-section-5.scss";
 @import "sections/home/home-section-6.scss";
 @import "sections/home/home-section-7.scss";
+
+
+@import "sections/products/products-section-1.scss";
+@import "sections/products/products-section-2.scss";
+@import "sections/products/products-section-3.scss";
+@import "sections/products/products-section-4.scss";
+@import "sections/products/products-section-5.scss";
+
+
 
 
