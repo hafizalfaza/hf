@@ -1,0 +1,26 @@
+.product-detail-section-3{
+    background: #F7F0E8;
+    padding: 100px 0 60px 0;
+    .text-container{
+        padding: 0 250px;
+
+        h2{
+            margin-bottom: 20px;
+        }
+
+        p{
+            margin-bottom: 50px;
+        }
+
+    }
+
+    .expand-btn{
+        color: #FD9850;
+        text-align: center;
+
+        svg{
+            width: 10px;
+            height: 10px;
+        }
+    }
+}

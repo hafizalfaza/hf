@@ -1,0 +1,77 @@
+@import "../../lib/_mixins";
+
+.center-detail-section-4{
+    background: #F7F0E8;
+    padding: 50px 0 150px 0;
+
+    @media only screen and (max-width: 320px){
+        padding: 0;
+    }
+
+    .main-title{
+        text-align: center;
+        margin-top: 0;
+        
+        margin-bottom: 60px;
+
+        @media only screen and (max-width: 320px){
+            font-size: 25px;
+        }
+    }
+
+    .cards-container{
+        @include flex-init();
+        @include flex-direction(row);
+        @include flex-wrap();
+
+        @media only screen and (max-width: 320px){
+            padding: 0;
+            @include flex-direction(column);
+        }
+        .card{
+            width: 33.333333333%;
+            padding: 0 10px;
+
+            @media only screen and (max-width: 320px){
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .inner{
+                width: 100%;
+                height: 100%;
+                border-bottom: 1px black solid;
+                padding-bottom: 20px;
+
+                
+
+            
+                .img-container{
+                    height: 250px;
+                    @include bg-img(cover, no-repeat, center);
+                    @include card-box-shadow();
+
+                    @media only screen and (max-width: 320px){
+                        height: 180px;
+                    }
+                }
+
+                .text-container{
+
+                    h2{
+                        @media only screen and (max-width: 320px){
+                            font-size: 18px;
+                        }
+                    }
+
+                    p{
+                        @media only screen and (max-width: 320px){
+                            font-size: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

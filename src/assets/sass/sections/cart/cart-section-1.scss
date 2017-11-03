@@ -1,0 +1,277 @@
+@import "../../lib/_mixins";
+
+.cart-section-1{
+    background: white;
+    padding: 150px 0;
+
+    .cart-container{
+        @media only screen and (max-width: 320px){
+            padding: 0 20px;
+
+            h1{
+                text-align: center;
+            }
+        }
+        .cart-item-container{
+            @include flex-init();
+            @include flex-direction(row);
+            @include justify-content(space-between);
+            padding-top: 80px;
+
+            @media only screen and (max-width: 320px){
+                @include flex-direction(column);
+            }
+
+            &.index-container{
+                @media only screen and (max-width: 320px){
+                    display: none;
+                }
+            }
+
+
+            &:last-child{
+                padding-bottom: 100px;
+                border-bottom: 1px black solid;
+            }
+
+            &:nth-child(2){
+                padding-bottom: 50px;
+            }
+
+            &:nth-child(3){
+                border-top: 1px grey solid;
+
+                @media only screen and (max-width: 320px){
+                    border-top: none;
+                }
+            }
+
+            .item{
+                @include flex-init();
+                @include flex-direction(row);
+
+                @media only screen and (max-width: 320px){
+                    @include flex-direction(column);
+                }   
+
+
+                .item-img{
+                    width: 80px;
+                    @include align-self(center);
+
+                    @media only screen and (max-width: 320px){
+                        margin-bottom: 30px;
+                    }
+                }
+
+                .text-container{
+                    @include align-self(center);
+                    width: 300px;
+                    margin-left: 50px;
+
+                    @media only screen and (max-width: 320px){
+                        margin-left: 20px;
+                        width: 100%;
+                        @include flex-init();
+                        @include flex-direction(column);
+                        @include align-items(center);
+                        text-align: center;
+                        margin-left: 0;
+
+                        h2{
+                            font-size: 15px;
+                            max-width: 180px;
+                            margin-bottom: 20px;
+                        }
+
+                        p{
+                            font-size: 12px;
+                            max-width: 180px;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    p{
+                        @media only screen and (max-width: 320px){
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+
+                &.index{
+                    width: 430px;
+                    text-align: center;
+                    @include justify-content(center);
+
+                }
+            }
+
+            .price{
+                @include align-self(center); 
+                width: 150px;
+                text-align: center;
+
+
+                @media only screen and (max-width: 320px){
+                    display: none;
+                }
+
+
+                &.index{
+                    width: 150px;
+                    @include justify-content(center);
+                }
+            }
+            
+
+            .counter-container{
+                @include align-self(center);
+                width: 150px;
+                text-align: center;
+
+                @include flex-init();
+                @include flex-direction(row);
+
+
+                @media only screen and (max-width: 320px){
+                    margin-bottom: 20px;
+                }
+
+
+                .counter-btn{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 40px;
+                    margin-top: 5px;
+                    border: 1px black solid;
+                } 
+
+                .counter{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    font-size: 40px;
+                    align-self: center;
+                    color: #FF7802;
+                }
+                
+
+                &.index{
+                    width: 150px;
+                    @include justify-content(center);
+                }
+            }
+
+            .total-price{
+                @include align-self(center);
+                width: 150px;
+                text-align: center;
+
+                @media only screen and (max-width: 320px){
+                    margin-bottom: 20px;
+                }
+
+
+                &.index{
+                    width: 150px;
+                    @include justify-content(center);
+                }
+            }
+
+            .btn-remove{
+                @include align-self(center);
+                width: 150px;
+                text-align: center;
+                color: #FF7802;
+
+                &.index{
+                    width: 150px;
+                    @include justify-content(center);
+                }
+            }
+        }
+    }
+
+
+    .cart-options-container{
+        @include flex-init();
+        @include flex-direction(row);
+        @include justify-content(space-between);
+
+        @media only screen and (max-width: 320px){
+            padding: 0 20px;
+            @include flex-direction(column);
+        }
+        .promotion-container{
+            padding-top: 120px;
+
+            @media only screen and (max-width: 320px){
+                padding-top: 50px;
+
+                h2{
+                    font-size: 25px !important;
+                    text-align: center;
+                }
+            }
+            
+            h2{
+                margin: 0;
+                
+            }
+
+            .promotion-code{
+                position: relative;
+                border-bottom: 1px black solid;
+                width: 300px;
+                padding-bottom: 20px;
+
+                @media only screen and (max-width: 320px){
+                    width: 100%;
+                }
+
+                svg{
+                    position: absolute;
+                    right: 0;
+                    width: 15px;
+                    height: 15px;
+                }
+            } 
+        }
+
+        .btn-container{
+            @include flex-init();
+            @include flex-direction(row);
+
+            @media only screen and (max-width: 320px){
+                @include flex-direction(column);
+                .btn{
+                    @include transform(scale(0.8));
+                }
+            }
+
+            h2{
+                margin: 0 20px;
+                @include align-self(center);
+
+                @media only screen and (max-width: 320px){
+                    display: none;
+                }
+
+            }
+
+            .btn{
+                @include align-self(center);
+                @include bg-img(contain, no-repeat, center);
+                background-image: url('../img/home/img_button.png');
+                line-height: 100px;
+                width: 300px;
+                height: 100px;
+                text-align: center;
+                color: white;
+            }
+            
+        }
+    }
+}

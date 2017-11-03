@@ -1,0 +1,45 @@
+@import "../../lib/_mixins";
+
+.product-detail-section-1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    .parallax-img{
+        position: absolute;
+        width: 100%;
+        height: 120%;
+        @include bg-img(cover, no-repeat, center);
+    }
+
+    .title-container{
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        @include transform(translate(-50%, -50%));
+        max-width: 500px;
+        text-align: center;
+        z-index: 1;
+
+        .title{
+            color: white;
+            line-height: 0.9;
+        }
+    }
+
+    .white-paint-decoration{
+        position: absolute;
+        width: 100%;
+        height: 19vh;
+        bottom: 0;
+        @include bg-img(cover, no-repeat, center);
+        z-index: 1;
+    }
+
+    .gradient-layer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}

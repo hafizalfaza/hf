@@ -1,0 +1,15 @@
+.product-detail-section-3 {
+  background: #F7F0E8;
+  padding: 100px 0 60px 0; }
+  .product-detail-section-3 .text-container {
+    padding: 0 250px; }
+    .product-detail-section-3 .text-container h2 {
+      margin-bottom: 20px; }
+    .product-detail-section-3 .text-container p {
+      margin-bottom: 50px; }
+  .product-detail-section-3 .expand-btn {
+    color: #FD9850;
+    text-align: center; }
+    .product-detail-section-3 .expand-btn svg {
+      width: 10px;
+      height: 10px; }

@@ -1,0 +1,34 @@
+.tnt-section-1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+  .tnt-section-1 .parallax-img {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .tnt-section-1 .title-container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    text-align: center; }
+    .tnt-section-1 .title-container .title {
+      color: white;
+      line-height: 0.9; }
+  .tnt-section-1 .white-paint-decoration {
+    position: absolute;
+    width: 100%;
+    height: 19vh;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }

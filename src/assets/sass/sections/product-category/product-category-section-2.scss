@@ -1,0 +1,31 @@
+@import "../../lib/_mixins";
+
+.product-category-section-2{
+    background: white;
+    padding-bottom: 80px;
+    .text-container{
+        text-align: center;
+
+        p{
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        .btn-read-more{
+            position: relative;
+            color: #FD9850;
+            @include flex-init();
+            @include flex-direction(column);
+            text-align: center;
+            svg{
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                left: 50%;
+                @include transform(translateX(-50%) rotate(90deg));
+                top: 30px;
+            }
+        }
+
+        
+    }
+}
