@@ -1,0 +1,108 @@
+@import "../../lib/_mixins";
+
+.doctor-detail-section-1{
+    background: white;
+    height: 500px;
+    width: 100%;
+    
+    .header-container{
+        height: 100%;
+        @include flex-init();
+        @include flex-direction(row);
+        @include transform(translateY(20%));
+
+        @media only screen and (max-width: 320px){
+            @include flex-direction(column-reverse);
+            @include align-items(center);
+            @include justify-content(center);
+        }
+        
+        @media only screen and (max-width: 320px){
+            padding: 0;
+            @include transform(translateY(0));
+        }
+        
+
+        .text-container{
+            width: 50%;
+            @include flex-init();
+            @include flex-direction(column);
+            @include justify-content(center);
+
+
+            @media only screen and (max-width: 320px){
+                width: 100%;
+                @include align-items(center);
+                padding: 20px 20px;
+            }
+            
+
+            .wrapper{
+                display: inline-block;
+                width: 400px;
+                @include align-self(flex-end);
+
+                h1{
+                    margin: 0;
+                    margin-bottom: 20px;
+                    font-size: 50px;
+                }
+        
+                p{
+                    margin-top: 30px;
+                    max-width: 350px;
+                }
+
+
+
+                @media only screen and (max-width: 320px){
+                    width: 100%;
+                    @include align-self(flex-start);
+
+                    h1{
+                        font-size: 18px;
+                        text-align: center;
+                    }
+
+                    span{
+                        display: block;
+                        text-align: center;
+                    }
+
+                    p{
+                        font-size: 15px;
+                        text-align: center;
+                    }
+                    
+
+                }
+
+
+            }
+        }
+    
+        .img-container{
+            width: 50%;
+            padding-left: 80px;
+
+            @media only screen and (max-width: 320px){
+                padding-left: 0;
+            }
+
+            @include flex-init();
+            @include flex-direction(column);
+            @include justify-content(center);
+
+            .img{
+                width: 300px;
+                height: 400px;
+                @include bg-img(cover, no-repeat, center);
+
+                @media only screen and (max-width: 320px){
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
