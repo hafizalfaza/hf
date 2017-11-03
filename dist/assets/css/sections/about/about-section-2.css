@@ -1,0 +1,17 @@
+.about-section-2 {
+  width: 100%;
+  padding: 0 300px 100px 300px;
+  background: white; }
+  @media only screen and (max-width: 320px) {
+    .about-section-2 {
+      padding: 0 0 50px 0; } }
+  .about-section-2 .text-container h2 {
+    margin-bottom: 20px; }
+  @media only screen and (max-width: 320px) {
+    .about-section-2 .text-container {
+      padding: 0 20px; }
+      .about-section-2 .text-container p {
+        font-size: 14px; } }
+  .about-section-2 p {
+    margin-bottom: 20px;
+    line-height: 1.5; }

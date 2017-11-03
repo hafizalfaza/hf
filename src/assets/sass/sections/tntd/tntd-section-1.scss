@@ -1,0 +1,14 @@
+@import "../../lib/_mixins";
+
+.tntd-section-1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+    .bg-img{
+        width: 100%;
+        height: 100%;
+        @include bg-img(cover, no-repeat, center);
+    }    
+}
