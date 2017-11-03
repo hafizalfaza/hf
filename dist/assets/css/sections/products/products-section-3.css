@@ -192,7 +192,8 @@
             display: inline-block;
             margin-bottom: 15px; }
             .products-section-3 .items-list .item .text-container .cart-container .counter .number {
-              color: #FD9850; }
+              color: #FD9850;
+              font-size: 22px; }
             .products-section-3 .items-list .item .text-container .cart-container .counter span {
               padding: 0 15px 0 15px; }
             @media only screen and (max-width: 320px) {
